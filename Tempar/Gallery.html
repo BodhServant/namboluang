@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<!-- saved from url=(0046)https://semantic-ui.com/examples/homepage.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <!-- Standard Meta -->
+  
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
+  <!-- Site Properties -->
+  <title>Gallery</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />   
+      <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="css/animate.css">
+<link rel="stylesheet" type="text/css" href="css/font.css">
+<link rel="stylesheet" type="text/css" href="css/li-scroller.css">
+<link rel="stylesheet" type="text/css" href="css/slick.css">
+<link rel="stylesheet" type="text/css" href="css/jquery.fancybox.css">
+<link rel="stylesheet" type="text/css" href="css/theme.css">
+<link rel="stylesheet" type="text/css" href="css/style.css">    
+    
+    
+  <link rel="stylesheet" type="text/css" href="css/trans.css">
+  <link rel="stylesheet" type="text/css" href="css/reset.css">
+  <link rel="stylesheet" type="text/css" href="semantic/dist/components/site.css">
+
+  <link rel="stylesheet" type="text/css" href="semantic/dist/components/container.css">
+  <link rel="stylesheet" type="text/css" href="semantic/dist/components/grid.css">
+  <link rel="stylesheet" type="text/css" href="semantic/dist/components/header.css">
+  <link rel="stylesheet" type="text/css" href="semantic/dist/components/image.css">
+  <link rel="stylesheet" type="text/css" href="semantic/dist/components/menu.css">
+
+  <link rel="stylesheet" type="text/css" href="semantic/dist/components/divider.css">
+  <link rel="stylesheet" type="text/css" href="semantic/dist/components/dropdown.css">
+  <link rel="stylesheet" type="text/css" href="semantic/dist/components/segment.css">
+  <link rel="stylesheet" type="text/css" href="semantic/dist/components/button.css">
+  <link rel="stylesheet" type="text/css" href="semantic/dist/components/list.css">
+  <link rel="stylesheet" type="text/css" href="semantic/dist/components/icon.css">
+  <link rel="stylesheet" type="text/css" href="semantic/dist/components/sidebar.css">
+  <link rel="stylesheet" type="text/css" href="semantic/dist/components/transition.css">
+    
+  <link rel="stylesheet" type="text/css" href="semantic/dist/semantic.css">       
+
+<!--    fancybox-->
+    <script type="text/javascript" src="lib/jquery-1.10.1.min.js"></script>
+
+	<!-- Add mousewheel plugin (this is optional) -->
+	<script type="text/javascript" src="lib/jquery.mousewheel-3.0.6.pack.js"></script>
+
+	<!-- Add fancyBox main JS and CSS files -->
+	<script type="text/javascript" src="source/jquery.fancybox.js?v=2.1.5"></script>
+	<link rel="stylesheet" type="text/css" href="source/jquery.fancybox.css?v=2.1.5" media="screen" />
+
+	<!-- Add Button helper (this is optional) -->
+	<link rel="stylesheet" type="text/css" href="source/helpers/jquery.fancybox-buttons.css?v=1.0.5" />
+<!--    <link rel="stylesheet" href="..\css/style.css" type="text/css">-->
+	<script type="text/javascript" src="source/helpers/jquery.fancybox-buttons.js?v=1.0.5"></script>
+
+	<!-- Add Thumbnail helper (this is optional) -->
+	<link rel="stylesheet" type="text/css" href="source/helpers/jquery.fancybox-thumbs.css?v=1.0.7" />
+	<script type="text/javascript" src="source/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>
+
+	<!-- Add Media helper (this is optional) -->
+	<script type="text/javascript" src="source/helpers/jquery.fancybox-media.js?v=1.0.6"></script>
+    
+    <script src="js/fancybox.js"></script>    
+    
+    
+<!--    fancybox-->
+
+  <script src='js/initial/initial.js'></script>
+  <script src="semantic/dist/components/visibility.js"></script>
+  <script src="semantic/dist/components/sidebar.js"></script>
+  <script src="semantic/dist/components/transition.js"></script>
+    
+  <script src="semantic/dist/semantic.js"></script>    
+    
+  <script>
+  $(document)
+    .ready(function() {
+
+      // fix menu when passed
+      $('.masthead')
+        .visibility({
+          once: false,
+          onBottomPassed: function() {
+            $('.fixed.menu').transition('fade in');
+          },
+          onBottomPassedReverse: function() {
+            $('.fixed.menu').transition('fade out');
+          }
+        })
+      ;
+
+      // create sidebar and attach to menu open
+      $('.ui.sidebar')
+        .sidebar('attach events', '.toc.item')
+      ;     
+      
+      })
+  ;
+  </script>
+    
+   
+</head>
+<body class="pushable">
+
+
+<!-- Following Menu -->
+<div class="ui large top fixed menu transition hidden">
+  <div class="ui container">
+    <a class="item" href="index.html">หน้าหลัก</a>
+    <a class="item" href="Activity.html">กิจกรรม</a>
+    <a class="item" href="History.html">ประวัติ</a>
+    <a class="active item" href="Gallery.html">รูปภาพ</a>  
+    <a class="item" href="Contact.html">ติดต่อ</a>
+
+  </div>
+</div>
+<!-- Sidebar Menu -->
+<!--
+<div class="ui vertical inverted sidebar menu left">
+  <a class="active item">หน้าหลัก</a>
+  <a class="item" href="Activity.html">กิจกรรม</a>
+  <a class="item" href="History.html">ประวัติ</a>
+  <a class="item" href="Gallery.html">รูปภาพ</a>
+  <a class="item" href="Contact.html">ติดต่อ</a>
+  <a class="item">Login</a>
+  <a class="item">Signup</a>
+</div>
+-->
+
+
+<!-- Page Contents -->
+<div class="pusher">
+  <div class="ui inverted vertical masthead center aligned segment" style="min-height: 55px;padding-bottom: 0px;">
+
+    <div class="ui container" style="padding: 0 0 0 0;">
+      <section id="navArea" >
+    <nav class="navbar navbar-inverse" role="navigation">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+      </div>
+      <div id="navbar" class="navbar-collapse collapse">
+        <ul class="nav navbar-nav main_nav">
+          <li><a href="index.html"><span class="fa fa-home desktop-home"></span><span class="mobile-show">Home</span></a></li>
+          <li><a href="index.html">หน้าหลัก</a></li>
+          <li><a href="Activity.html">กิจกรรม</a></li>
+          <li><a href="History.html">ประวัติ</a></li>
+          <li class="active"><a href="Gallery.html">รูปภาพ</a></li>
+          <li><a href="Contact.html">ติดต่อ</a></li>          
+        </ul>
+      </div>
+    </nav>
+  </section>
+    </div>
+
+<!--    <div class="ui text container">-->
+      <div class="ui grid container" style="width: 900px; margin: auto;">
+     <img class="ui fluid image" src="img/bg-menu.jpg" style="width:100%;">
+    </div>
+<!--    </div>-->
+
+  </div>
+
+     <div class="ui grid container" style="width: 900px; margin: auto;">
+  <div class="ui fluid four column grid container" style="width: 900px; margin: auto;">
+    
+    <h2 class="ui header" style="margin-top: 10px;">
+      <img src="img/gallery.svg">
+      <div class="content">
+        รูปภาพ
+        <div class="sub header">อัลบัมรูปภาพของ - วัดเชียงมั่น จังหวัดเชียงใหม่</div>
+      </div>
+    </h2>
+    <div class="ui grid" >
+  <div class="five column row" id="gallery-divided">
+<!--
+    <div class="column">
+      <a class="fancybox" href="/pic/1.jpg" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><img src="demopic/1.JPG" alt="" /></a>
+    </div>
+    <div class="column">
+      <a class="fancybox" href="/pic/2.jpg" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><img src="demopic/2.JPG" alt="" /></a>
+    </div>
+    <div class="column">
+      <a class="fancybox" href="/pic/3.jpg" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><img src="demopic/3.JPG" alt="" /></a>
+    </div>
+      <div class="column">
+      <a class="fancybox" href="/pic/4.jpg" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><img src="demopic/4.JPG" alt="" /></a>
+    </div>
+      <div class="column">
+      <a class="fancybox" href="/pic/5.jpg" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><img src="demopic/5.JPG" alt="" /></a>
+    </div>
+      <div class="column">
+      <a class="fancybox" href="/pic/1.jpg" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><img src="demopic/1.JPG" alt="" /></a>
+    </div>
+    <div class="column">
+      <a class="fancybox" href="/pic/2.jpg" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><img src="demopic/2.JPG" alt="" /></a>
+    </div>
+    <div class="column">
+      <a class="fancybox" href="/pic/3.jpg" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><img src="demopic/3.JPG" alt="" /></a>
+    </div>
+      <div class="column">
+      <a class="fancybox" href="/pic/4.jpg" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><img src="demopic/4.JPG" alt="" /></a>
+    </div>
+      <div class="column">
+      <a class="fancybox" href="/pic/5.jpg" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><img src="demopic/5.JPG" alt="" /></a>
+    </div>
+-->
+  </div>
+      
+</div>
+      
+<!--
+  <div class="column">   
+       <figure class="PhotoCard ui card"> 
+      <img class="ui fluid image" src="https://s359.kapook.com/pagebuilder/98e915fd-82af-4945-aa9e-01722b98ac1f.jpg">
+        <figcaption class="content">
+            Cool pics
+        </figcaption>
+        </figure>  
+  </div>      
+   <div class="column">   
+       <figure class="PhotoCard ui card"> 
+      <img class="ui fluid image" src="https://s359.kapook.com/pagebuilder/98e915fd-82af-4945-aa9e-01722b98ac1f.jpg">
+        <figcaption class="content">
+            Cool pics
+        </figcaption>
+        </figure>  
+  </div>      
+  <div class="column">   
+       <figure class="PhotoCard ui card"> 
+      <img class="ui fluid image" src="https://s359.kapook.com/pagebuilder/98e915fd-82af-4945-aa9e-01722b98ac1f.jpg">
+        <figcaption class="content">
+            Cool pics
+        </figcaption>
+        </figure>  
+  </div>      
+  <div class="column">   
+       <figure class="PhotoCard ui card"> 
+      <img class="ui fluid image" src="https://s359.kapook.com/pagebuilder/98e915fd-82af-4945-aa9e-01722b98ac1f.jpg">
+        <figcaption class="content">
+            Cool pics
+        </figcaption>
+        </figure>  
+  </div>      
+-->
+</div>
+   
+    
+    </div>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+<!--    footer-->
+    <div class="ui inverted vertical footer segment">
+    <div class="ui container">
+      <div class="ui stackable inverted divided equal height stackable grid">
+        <div class="four wide column">
+            <div class="ui horizontal list">
+          <h4 class="ui inverted header">Create By</h4>
+            <div class="item">
+            <img class="ui mini circular image" src="img/elyse.png">
+            <div class="content" style="color: white;">
+              <div class="ui sub header" style="color: white;">Mr.Supawit Kamjina</div>
+              Developer
+            </div>
+                </div>
+  </div>
+        </div>
+        <div class="four wide column">
+          <h4 class="ui inverted header">Contact</h4>
+          <p>Email : supawitkamjina@gmail.com</p>
+        </div>
+        <div class="seven wide column">
+         <h4 class="ui inverted header" style="color: orangered;">  <img class="ui mini circular image" src="img/caution.svg">Caution!</h4>
+          <p style="color: white;">เว็ปไซต์นี้ถูกสร้างขึ้นมาโดยไม่แสวงหากำไรใดๆทั้งสื้น<br/>หากต้องการบริจาคไทยทานต่างๆ กรุณาติดต่อทางวัดโดยตรง</p>
+              
+        </div>
+      </div>
+    </div>
+  </div>
+    </div>
+     
+    
+    
+    
+<!--
+<script>
+    function deleteModal() {
+        $('.ui.basic.modal').each(function() {
+            $(this).remove();
+        });
+    }
+    $('.PhotoCard').click(function() {
+        // Delete any modals hanging around
+        deleteModal();
+        var image = $(this).children('img').attr('src');
+        $('body').append('<div class="ui basic modal"><div class="content"><img src="'+image+'" width="100%" /></div></div>');        
+        $('.ui.basic.modal')
+            .modal('show');
+    })
+</script>
+-->
+  
+    
+
+
+
+
+</body>
+  <script src="js/data/gal-data.js"></script>
+  <script src="js/initial/gallery.js"></script>
+ 
+</html>
