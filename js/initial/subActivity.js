@@ -1,17 +1,24 @@
 var contentData;
+debugger;
+var match = act_id;
+var val = allContentData.find( function(item) { return item.activity_id == match } );
+contentData = val;
 
-$.ajax({
-                    url : localStorage.getItem('ipService')+'api/content/'+act_id,
-                    type : 'GET',
-                    dataType : 'json',
-                    async: false,
-                    success : function(data) {
-                        
-                        contentData = data;
-                       
+
+
+
+//$.ajax({
+//                    url : localStorage.getItem('ipService')+'api/content/'+act_id,
+//                    type : 'GET',
+//                    dataType : 'json',
+//                    async: false,
+//                    success : function(data) {
 //                        
-                    }
-                });
+//                        contentData = data;
+//                       
+////                        
+//                    }
+//                });
 
 
 

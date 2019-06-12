@@ -16,14 +16,6 @@
 
 
 
-function tagUi(tag) {
-  return `
-<h4>ปักหมุด</h4>
-<ul class="foods-list">
-${tag.map(tag => `<div class="ui label">${tag}</div>`).join("")}
-</ul>
-`;
-}
 
 
 
