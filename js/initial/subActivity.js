@@ -56,7 +56,7 @@ function picTemplate(data){
 
 function paragraphTemplate(data){
     
-    return `<div id="contents">${data}</p></div>`;
+    return `<div id="contents">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;${data}</p></div>`;
     
 }
 

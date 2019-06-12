@@ -22,8 +22,11 @@
 function picTemplate(picture) {
     
     return `
-      <div class="column">
-      <a class="fancybox" href="${picture.url}" data-fancybox-group="gallery" title="${picture.name}"><img src="${picture.demoUrl}" alt="" /></a>
+      <div class="column"  style="margin-bottom:10px;">
+     <a href="${picture.url}" data-fancybox="images" data-caption="${picture.name}">
+        <img src="${picture.demoUrl}" />
+      </a>
+
     </div>
 `;
     
