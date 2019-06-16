@@ -4,9 +4,6 @@ $(document).ready(function() {
 			 */
 
 			$('.fancybox').fancybox({
-                 type:'iframe',
-                 width: 600, //or whatever you want
-                 height: 300,
                  openEffect  : 'none',
                  closeEffect : 'none',
                  type : 'image',

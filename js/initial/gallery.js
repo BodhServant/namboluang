@@ -23,7 +23,7 @@ function picTemplate(picture) {
     
     return `
       <div class="column"  style="margin-bottom:10px;">
-     <a class="fancyframe" href="${picture.url}" data-fancybox="images" data-caption="${picture.name}">
+     <a href="${picture.url}" data-fancybox="images" data-caption="${picture.name}">
         <img src="${picture.demoUrl}" />
       </a>
 
