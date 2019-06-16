@@ -13,9 +13,7 @@
     
     <!--    fancybox-->
     
-    <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
-
-   <script type="text/javascript" src="js/jquery.fancybox.js"></script>
+ 
     
 <!--    fancybox-->
 <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
@@ -57,6 +55,9 @@
   <script src="semantic/dist/components/transition.js"></script>
     
   <script src="semantic/dist/semantic.js"></script>    
+  <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+
+   <script type="text/javascript" src="js/jquery.fancybox.js"></script>
     
   <script>
   $(document)
@@ -249,8 +250,11 @@
      
     
 <script>
-$('[data-fancybox="images"]').fancybox({
-  buttons : [ 
+$('.fancybox').fancybox({
+    type:'iframe',
+    width: 150, //or whatever you want
+    height: 150,
+    buttons : [ 
     'slideShow',
     'share',
     'zoom',
