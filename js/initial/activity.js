@@ -35,7 +35,7 @@ function actTemplate(activity) {
         <div class="content">
           <a class="header">${activity.topic}</a>
           <div class="meta">
-            <span class="cinema">วันที่ ${activity.date}</span>
+            <span class="cinema">วันที่ประกาศ ${activity.date}</span>
           </div>
           <div class="description">
             <p>${activity.description}</p>
