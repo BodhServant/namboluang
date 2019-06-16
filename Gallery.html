@@ -13,7 +13,9 @@
     
     <!--    fancybox-->
     
- 
+  <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+
+   <script type="text/javascript" src="js/jquery.fancybox.js"></script>
     
 <!--    fancybox-->
 <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
@@ -55,9 +57,7 @@
   <script src="semantic/dist/components/transition.js"></script>
     
   <script src="semantic/dist/semantic.js"></script>    
-  <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
-
-   <script type="text/javascript" src="js/jquery.fancybox.js"></script>
+ 
     
   <script>
   $(document)
@@ -80,6 +80,12 @@
       $('.ui.sidebar')
         .sidebar('attach events', '.toc.item')
       ;     
+      
+      $('.fancyframe').fancybox({
+         'type':'iframe',
+         'width': 150, //or whatever you want
+         'height': 150
+        });
       
       })
   ;
@@ -249,23 +255,7 @@
     </div>
      
     
-<script>
-$('.fancybox').fancybox({
-    type:'iframe',
-    width: 150, //or whatever you want
-    height: 150,
-    buttons : [ 
-    'slideShow',
-    'share',
-    'zoom',
-    'fullScreen',
-    'close'
-  ],
-  thumbs : {
-    autoStart : true
-  }
-});    
-</script>
+
     
 
 
