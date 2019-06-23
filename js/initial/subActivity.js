@@ -26,7 +26,7 @@ contentData = val;
 
 
 function contentTemplate(content) {
-    
+    topic = content.topic;
     if(content.picture)
         for (var i = 0; i <= 40 ; i++) {
 
@@ -64,5 +64,6 @@ function paragraphTemplate(data){
 function appendHtml(data){
     document.getElementById("activities-divided").innerHTML += data;
 }
-document.getElementById("topic").innerHTML = topic;
+
 contentTemplate(contentData);
+document.getElementById("topic").innerHTML = topic;

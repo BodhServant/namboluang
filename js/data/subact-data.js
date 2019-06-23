@@ -2,6 +2,7 @@ var allContentData = [
     {
         "id": 1,
         "lastUpdate": "2019-06-12T23:37:03.000+0000",
+        "topic":"ขอเชิญญาติธรรมทุกท่านร่วมทำบุญตักบาตร ทุกวันพระ",
         "activity_id": 1,
         "picture": [
             "http://www.thaismescenter.com/wp-content/uploads/2018/06/o2.jpg"
@@ -14,6 +15,7 @@ var allContentData = [
      {
         "id": 2,
         "lastUpdate": "2019-06-16T04:39:38.000+0000",
+         "topic":"ขอเชิญชวนประชาชนพุทธศาสนิกชนทุกท่านร่วมสรงน้ำพระธาตุ ซึ่งจะจัดขึ้นในระหว่างวันที่ 22 – 25 มิถุนายน 2562 ",
         "activity_id": 2,
         "picture": [
             "picture/srong_nam/35.jpg",
