@@ -28,7 +28,7 @@ contentData = val;
 function contentTemplate(content) {
     
     if(content.picture)
-        for (var i = 0; i <= 6 ; i++) {
+        for (var i = 0; i <= 40 ; i++) {
 
             if(content.picture[i]!=null){
             appendHtml(picTemplate(content.picture[i]));
