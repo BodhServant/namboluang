@@ -86,5 +86,71 @@ var calendarData = [
         "end": "",
         "url": "subActivity.html?id=2&topic=ขอเชิญชวนประชาชนพุทธศาสนิกชนทุกท่านร่วมสรงน้ำพระธาตุ%2022%20–%2026%20มิถุนายน%202562",
         "visible": true
+    },
+     {
+        "id": 3,
+        "lastUpdate": "2019-06-08T18:42:29.000+0000",
+        "temple_id": 1,
+        "groupId": 0,
+        "title": "วันพระ",
+        "start": "2019-07-01",
+        "end": "",
+        "url": "",
+        "visible": true
+    },
+     {
+        "id": 3,
+        "lastUpdate": "2019-06-08T18:42:29.000+0000",
+        "temple_id": 1,
+        "groupId": 0,
+        "title": "วันพระ",
+        "start": "2019-07-09",
+        "end": "",
+        "url": "",
+        "visible": true
+    },
+     {
+        "id": 3,
+        "lastUpdate": "2019-06-08T18:42:29.000+0000",
+        "temple_id": 1,
+        "groupId": 0,
+        "title": "วันอาสาฬหบูชา",
+        "start": "2019-07-16",
+        "end": "",
+        "url": "",
+        "visible": true
+    },
+     {
+        "id": 3,
+        "lastUpdate": "2019-06-08T18:42:29.000+0000",
+        "temple_id": 1,
+        "groupId": 0,
+        "title": "วันเข้าพรรษา",
+        "start": "2019-07-17",
+        "end": "",
+        "url": "",
+        "visible": true
+    },
+    {
+        "id": 3,
+        "lastUpdate": "2019-06-08T18:42:29.000+0000",
+        "temple_id": 1,
+        "groupId": 0,
+        "title": "วันพระ",
+        "start": "2019-07-24",
+        "end": "",
+        "url": "",
+        "visible": true
+    },
+    {
+        "id": 3,
+        "lastUpdate": "2019-06-08T18:42:29.000+0000",
+        "temple_id": 1,
+        "groupId": 0,
+        "title": "วันพระ",
+        "start": "2019-07-31",
+        "end": "",
+        "url": "",
+        "visible": true
     }
 ];
