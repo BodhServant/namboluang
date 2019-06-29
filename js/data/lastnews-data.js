@@ -9,7 +9,7 @@ var lastNewsData = [
             "ศาสนา",
             "วันพระ"
         ],
-        "date": "18/6/2562",
+        "date": "01/09/2562",
         "visible": true,
         "temple_id": 1
     },
