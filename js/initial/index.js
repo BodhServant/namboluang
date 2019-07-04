@@ -100,7 +100,7 @@ ${lastNewsData.map(lastNews).join("")}
 
     var calendar = new FullCalendar.Calendar(calendarEl, {
       plugins: [ 'interaction', 'dayGrid' ],
-      defaultDate: '2019-06-12',
+      defaultDate: '2019-07-12',
       editable: true,
       locale: 'th',    
       eventLimit: true, // allow "more" link when too many events
