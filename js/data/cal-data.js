@@ -153,4 +153,53 @@ var calendarData = [
         "url": "",
         "visible": true
     }
+    ,
+    {
+        "id": 3,
+        "lastUpdate": "2019-06-08T18:42:29.000+0000",
+        "temple_id": 1,
+        "groupId": 0,
+        "title": "วันพระ",
+        "start": "2019-08-08",
+        "end": "",
+        "url": "",
+        "visible": true
+    }
+    ,
+    {
+        "id": 3,
+        "lastUpdate": "2019-06-08T18:42:29.000+0000",
+        "temple_id": 1,
+        "groupId": 0,
+        "title": "วันพระ",
+        "start": "2019-08-15",
+        "end": "",
+        "url": "",
+        "visible": true
+    }
+    ,
+    {
+        "id": 3,
+        "lastUpdate": "2019-06-08T18:42:29.000+0000",
+        "temple_id": 1,
+        "groupId": 0,
+        "title": "วันพระ",
+        "start": "2019-08-23",
+        "end": "",
+        "url": "",
+        "visible": true
+    }
+    ,
+    {
+        "id": 3,
+        "lastUpdate": "2019-06-08T18:42:29.000+0000",
+        "temple_id": 1,
+        "groupId": 0,
+        "title": "วันพระ",
+        "start": "2019-08-29",
+        "end": "",
+        "url": "",
+        "visible": true
+    }
+    
 ];
