@@ -40,12 +40,16 @@
   <link rel="stylesheet" type="text/css" href="semantic/dist/semantic.css">       
 
 
-<script src='js/initial/initial.js'></script>
    <script src="js/vendor/jquery-3.3.1.min.js"></script>
   <script src="semantic/dist/components/visibility.js"></script>
   <script src="semantic/dist/components/sidebar.js"></script>
   <script src="semantic/dist/components/transition.js"></script>
     
+ <link href='packages/core/main.css' rel='stylesheet' />
+ <link href='packages/daygrid/main.css' rel='stylesheet' />
+ <script src='packages/core/main.js'></script>
+ <script src='packages/interaction/main.js'></script>
+ <script src='packages/daygrid/main.js'></script>
   <script src="semantic/dist/semantic.js"></script>    
     
     <link rel="stylesheet" href="css/bootstrap.css">
@@ -170,6 +174,10 @@
 <!--------------------------------------------  Meta data UI-->
         
       </div>
+         <div class="row" style="margin: auto; margin-bottom: 50px;">
+        <div class="col-lg-8 col-md-8 col-sm-8" style="margin: auto;">
+        <div id='calendar'></div> </div>
+        </div>
 <!--
       <div class="row">
         <div class="center aligned column">
@@ -218,7 +226,7 @@
 
 
 </body>
-
+    <script src="js/data/cal-data.js"></script>
     <script src="js/data/act-data.js"></script>
     <script src="jquery.twbsPagination.js"></script>
     <script src="js/initial/activity.js"></script>
@@ -229,5 +237,22 @@
     <script src="js/jquery.newsTicker.min.js"></script>
     <script src="js/jquery.fancybox.pack.js"></script>  
     <script src="js/main.js"></script>    
+     <script>
+        document.addEventListener('DOMContentLoaded', function() {
+    var calendarEl = document.getElementById('calendar');
+
+    var calendar = new FullCalendar.Calendar(calendarEl, {
+      plugins: [ 'interaction', 'dayGrid' ],
+      defaultDate: '2019-09-01',
+      editable: true,
+      locale: 'th',    
+      eventLimit: true, // allow "more" link when too many events
+      events: calendarData
+    });
+
+    calendar.render();
+  });
+  
+    </script>
 
 </html>
