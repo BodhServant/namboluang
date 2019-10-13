@@ -267,10 +267,21 @@ var calendarData = [
         "lastUpdate": "2019-06-08T18:42:29.000+0000",
         "temple_id": 1,
         "groupId": 0,
-        "title": "วันคล้ายวันสวรรคต ร.9,วันออกพรรษา",
+        "title": "วันออกพรรษา",
         "start": "2019-10-13",
         "end": "",
-        "url": "",
+        "url": "subActivity.html?id=6&topic=ออกพรรษา",
+        "visible": true
+    },
+    {
+        "id": 3,
+        "lastUpdate": "2019-06-08T18:42:29.000+0000",
+        "temple_id": 1,
+        "groupId": 0,
+        "title": "งานกฐิน",
+        "start": "2019-10-19",
+        "end": "",
+        "url": "subActivity.html?id=7&topic=กฐิน",
         "visible": true
     }
      ,
