@@ -308,6 +308,54 @@ var calendarData = [
         "url": "",
         "visible": true
     }
+     ,
+    {
+        "id": 3,
+        "lastUpdate": "2019-06-08T18:42:29.000+0000",
+        "temple_id": 1,
+        "groupId": 0,
+        "title": "วันพระ",
+        "start": "2019-11-04",
+        "end": "",
+        "url": "",
+        "visible": true
+    }
+     ,
+    {
+        "id": 3,
+        "lastUpdate": "2019-06-08T18:42:29.000+0000",
+        "temple_id": 1,
+        "groupId": 0,
+        "title": "วันลอยกระทง",
+        "start": "2019-11-11",
+        "end": "",
+        "url": "",
+        "visible": true
+    }
+     ,
+    {
+        "id": 3,
+        "lastUpdate": "2019-06-08T18:42:29.000+0000",
+        "temple_id": 1,
+        "groupId": 0,
+        "title": "วันพระ",
+        "start": "2019-11-19",
+        "end": "",
+        "url": "",
+        "visible": true
+    }
+     ,
+    {
+        "id": 3,
+        "lastUpdate": "2019-06-08T18:42:29.000+0000",
+        "temple_id": 1,
+        "groupId": 0,
+        "title": "วันพระ",
+        "start": "2019-11-26",
+        "end": "",
+        "url": "",
+        "visible": true
+    }
     
     
 ];
