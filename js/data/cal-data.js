@@ -350,7 +350,7 @@ var calendarData = [
         "temple_id": 1,
         "groupId": 0,
         "title": "ปริวาสกรรม",
-        "start": "2019-11-20",
+        "start": "2019-11-19",
         "end": "2019-11-26",
         "url": "subActivity.html?id=8&topic=กรรม",
         "visible": true
