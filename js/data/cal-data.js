@@ -628,6 +628,54 @@ var calendarData = [
         "url": "",
         "visible": true
     }
+    ,
+    {
+        "id": 3,
+        "lastUpdate": "2019-06-08T18:42:29.000+0000",
+        "temple_id": 1,
+        "groupId": 0,
+        "title": "วันพระ",
+        "start": "2020-05-06",
+        "end": "",
+        "url": "",
+        "visible": true
+    }
+    ,
+    {
+        "id": 3,
+        "lastUpdate": "2019-06-08T18:42:29.000+0000",
+        "temple_id": 1,
+        "groupId": 0,
+        "title": "วันพระ",
+        "start": "2020-05-14",
+        "end": "",
+        "url": "",
+        "visible": true
+    }
+    ,
+    {
+        "id": 3,
+        "lastUpdate": "2019-06-08T18:42:29.000+0000",
+        "temple_id": 1,
+        "groupId": 0,
+        "title": "วันพระ",
+        "start": "2020-05-21",
+        "end": "",
+        "url": "",
+        "visible": true
+    }
+    ,
+    {
+        "id": 3,
+        "lastUpdate": "2019-06-08T18:42:29.000+0000",
+        "temple_id": 1,
+        "groupId": 0,
+        "title": "วันพระ",
+        "start": "2020-05-29",
+        "end": "",
+        "url": "",
+        "visible": true
+    }
     
     
 ];
