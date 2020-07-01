@@ -723,6 +723,66 @@ var calendarData = [
         "end": "",
         "url": "",
         "visible": true
+    }//
+    ,
+    {
+        "id": 3,
+        "lastUpdate": "2019-06-08T18:42:29.000+0000",
+        "temple_id": 1,
+        "groupId": 0,
+        "title": "วันอาสาฬหบูชา",
+        "start": "2020-07-05",
+        "end": "",
+        "url": "",
+        "visible": true
+    }
+    ,
+    {
+        "id": 3,
+        "lastUpdate": "2019-06-08T18:42:29.000+0000",
+        "temple_id": 1,
+        "groupId": 0,
+        "title": "วันเข้าพรรษา",
+        "start": "2020-07-06",
+        "end": "",
+        "url": "",
+        "visible": true
+    }
+    ,
+    {
+        "id": 3,
+        "lastUpdate": "2019-06-08T18:42:29.000+0000",
+        "temple_id": 1,
+        "groupId": 0,
+        "title": "วันพระ",
+        "start": "2020-07-13",
+        "end": "",
+        "url": "",
+        "visible": true
+    }
+    ,
+    {
+        "id": 3,
+        "lastUpdate": "2019-06-08T18:42:29.000+0000",
+        "temple_id": 1,
+        "groupId": 0,
+        "title": "วันพระ",
+        "start": "2020-07-20",
+        "end": "",
+        "url": "",
+        "visible": true
+    }
+    ,
+    {
+        "id": 3,
+        "lastUpdate": "2019-06-08T18:42:29.000+0000",
+        "temple_id": 1,
+        "groupId": 0,
+        "title": "วันเฉลิมฯ ร.10",
+        "start": "2020-07-28",
+        "end": "",
+        "url": "",
+        "visible": true
     }
     
     
